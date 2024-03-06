@@ -1,1 +1,124 @@
-/* Write your CSS here! */
+@font-face{
+    font-family: Bebas-Neue;
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Bebas-Neue";
+}
+
+#mainHeading{
+    color: red;
+    
+}
+.title-container{
+    font-family: "Bebas-Neue";
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: center;
+    min-width: 154;
+}
+
+.generic-header{
+    justify-content: bottom;
+    margin: 0px;
+}
+.header-secondtitle{
+    justify-content: top;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.header-image-div{
+    margin: 0px;
+    padding: 0px;
+}
+.headerImage1{
+    
+    background-image: url("./pictures/rwandan_flag.gif");
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    min-height: 55px;
+    max-width: 130px;
+    max-height: 60px;
+    margin: 0px;
+
+}
+
+.headerImage2{
+    background-image: url("./pictures/uganda-flag.gif");
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    width: 25vw;
+    background-repeat: no-repeat;
+    min-width: 80px;
+    min-height: 55px;
+    max-width: 130px;
+    max-height: 60px;
+    margin: 0px;
+}
+
+.uganda-map img{
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    max-height: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav{
+    height: 20px;
+    width: 100%;
+    border: 2px dashed red;
+}
+#Main{
+    display: flex;
+    flex-direction: column;
+}
+.body-contents-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+}
+.ul-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px
+}
+
+li {
+    border: 2px dashed red;
+    min-height: 20px;
+    min-width: 100px;
+    list-style: none;
+}
+.funParagraph{
+    color: green;
+}
+#feet{
+    border: 2px solid red;
+    padding: 2%;
+}
+
