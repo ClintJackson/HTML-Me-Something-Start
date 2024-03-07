@@ -31,7 +31,7 @@ h3 {
     font-family: "Bebas-Neue";
     display: flex;
     flex-direction: column;
-    margin: 0px;
+    margin: 5px;
     align-items: center;
     min-width: 154;
     box-shadow: 2px 2x 3px;
@@ -39,7 +39,7 @@ h3 {
 
 .generic-header{
     justify-content: bottom;
-    margin: 0px;
+    margin: 2px;
     border-bottom: 1px solid black;
 }
 .header-secondtitle{
