@@ -3,10 +3,15 @@
    <head>
       <title>Jinja</title>
       <link rel = "stylesheet" href = "styles.css" type = "text/css"/>
-      <!-- <script src = "script.js"></script> -->
+       
       
    </head>
-   <body>
+   <script src = "script.js"></script>
+   <script>
+      document.addEventListener("DOMContentLoaded", init);
+   </script>
+   <body class = "body-wrapper" style = "background-color: #fef1ce;">
+      
       <header id = "mainHeading" style = "color: black";>
          <div id = "header-container">
             
@@ -27,19 +32,23 @@
                
          </div>
       </div>
-      <nav></nav> 
+      <nav>
+            <a href="https://en.wikipedia.org/wiki/Jinja,_Uganda" target = "_blank" id = "jinjaWikiButton" rel="noopener noreferrer">Jinja Wiki</a>
+            <a href="https://www.youtube.com/watch?v=S7rlQn7xv2Q&list=PPSV" target = "_blank" id = "coolVideoButton" rel="noopener noreferrer"> Cool Video</a>
+            <a href="https://www.raftafrica.com/" target = "_blank" id = "raftAfricaButton" rel="noopener noreferrer">Our River Outfitter</a>
+      </nav> 
       </header>
       <main class = "main" id = "main">
          <div class ="body-contents-container" id = "content1">
             <article class = "section">
-               <h3 class = "section-header">Header 1</h3>
+               <h3 class = "section-header">Intro</h3>
                <div class = "ul-container">
                   <ul class = "ul-content">
                      <li>
                         <p>
                         In 2007 I had the opportunity to go white water rafting on the Nile in Jinja, Uganda, "The Source of the Nile." 
                         <br> <br>
-                        Aside from the fear of crocodiles, it was a great experience. I'll tell you a bit about it, and Jinja, Uganda here.   
+                        Aside from the fear of crocodiles, it was a great experience. I'll tell you a bit about it here.                   
                         </p>
                      </li>
                      <li class = "uganda-map">
@@ -49,7 +58,7 @@
                         <img src="./pictures/hq-raft.jpg" alt=""/>
                      </li>
                      <li class = "funParagraph" style="color: black">
-                        
+                        Jinja is a city and metropolitan area in Uganda, located on the northern shores of Lake Victoria. Marketers often refer to it as "the adventure capital of Africa." 
                      </li>
                   </ul>
                </div>
@@ -61,14 +70,34 @@
          <div class ="body-contents-container">
             <article class = "section">
                <h3 class = "section-header">Header 2</h3>
-               <p class = "main-contents">Paragraph 2 &copy; </p>
+                  <div class = "ul-container">
+                     <ul class = "ul-content2">
+                        <li> Now, I don't really expect anyone to read this. But in the off-chance someone does, I'm giving a shoutout to our river guide: Juma. Dude was hilarious. <br><br>His job, as he said--perhaps simply to scare us <a href="https://en.wikipedia.org/wiki/Mzungu">wazungu</a>--was to get us on top of his kayak before the crocodiles got there if we fell out on one of the rapids. </li>
+                        <li> <img src="./pictures/juma-jpeg.jpg" alt="This is Juma"> <p style = "text-align: center;">Juma</p></li>
+                        <li>Part of the process of Juma explaining his job involved him unceremoniously flipping his partner kayaker over in the water while saying "now, see, if I come to you, don't do this." He flipped his partner back over. They were gasping and began yelling at Juma, who proceeded to re-flip them. "You must remain calm. Please do not yell, or panic. Because, I do not want this to happen to me. Okay?" <br><br>
+                           After a few hours on the river, we took a break to just float. We passed a large rock jutting up from the water to a height of around 10ft. A few of us had decided to swim a bit, just around our rafts. 
+                           <br><br>That's when he told us "You see that rock? 2 weeks ago a crocodile pulled a fisherman from his boat (small canoe-like structures) and flung him onto that rock. He died." Juma was obviously a master jokester <a href="https://www.raftafrica.com/pages/meet-the-team/">as well as being a master and famous kayaker</a>, but we all decided to get out of the water.
+                           <br><br>
+                           We didn't have a camera with us, but I found a gif of someone else who flipped around the same spot we did. Also, we never saw a crocodile (I have zero complaints about that). 
+                        </li>
+                        <li>
+                           <img src="./pictures/nileflipping.gif" alt="">
+                        </li>
+                        <li>
+                           Note: I included the Rwandan flag on the page because that's where I lived at the time of this trip, which is why it was even a possibility for me to do something like this. Rwanda Nziza 
+                        </li>
+                        
+                     </ul>
+                     
+                  </div>
+
+               <p class = "main-contents"> &copy; </p>
             </article>
          </div>
       </div>
       
 
 
-      <!-- notes: Duma is the name of the float guide -->
    </main>
 
 
@@ -77,7 +106,10 @@
          <p>Rwandan flag: <cite>https://tenor.com/view/rwanda-flag-gif-africa-gif-27442477</cite></p>
          <p>Ugandan flag: <cite> https://tenor.com/view/uganda-flag-gif-africa-gif-27442751</cite></p>
          <p>Ugandan Map, modified: <cite>https://www.pinterest.com/pin/363736107384897317/</cite></p>
-         &copy
+         <p>Juma Image: <cite>https://www.raftafrica.com/pages/meet-the-team/</cite></p>
+         <p>Raft Flipping image: <cite>https://meanderingmarbles.com/2019/03/12/week-8-kampala-jinja-lake-bunyoni/</cite></p>
+         
+         &copy Clint Jackson
       </footer>
    </body>
 </html>

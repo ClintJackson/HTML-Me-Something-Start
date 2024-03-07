@@ -4,12 +4,27 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.body-wrapper{
+    max-width: 630px;
+}
+
+
+
 h3 {
     font-family: "Bebas-Neue";
 }
 
 #mainHeading{
     color: red;
+    box-shadow: 2px 2px 5px;
     
 }
 .title-container{
@@ -19,11 +34,13 @@ h3 {
     margin: 0px;
     align-items: center;
     min-width: 154;
+    box-shadow: 2px 2x 3px;
 }
 
 .generic-header{
     justify-content: bottom;
     margin: 0px;
+    border-bottom: 1px solid black;
 }
 .header-secondtitle{
     justify-content: top;
@@ -78,19 +95,44 @@ h3 {
     max-width: 180px;
     max-height: 190px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 nav{
+    display: flex;
     height: 20px;
     width: 100%;
-    border: 2px dashed red;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: 2px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 3px;
+    
+}
+
+nav a{
+    font-family: Bebas-Neue;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px black;
+    background-color: green;
+    text-shadow: 2px 2px 4px #000000;
+    color: #72C339
+    
 }
 main{
     display: flex;
     flex-direction: column;
-    background-color: rgb(229 229 229)
+    background-color: rgb(229 229 229);
 }
+
+
 .body-contents-container{
     height: 100%;
     width: 100%;
@@ -100,11 +142,15 @@ main{
     box-shadow: 5px 5px 15px;
     padding: 5px;
     margin: 5px;
+    
 }
 
 .section {
     width: 100%;
     height: 100%;
+}
+.section-header{
+    margin: 3px;
 }
 .ul-content {
     display: grid;
@@ -113,7 +159,17 @@ main{
     box-shadow: 2px 2px 3px;
     margin: 5px;
     padding: 5px;
-    border: 1px solid black
+    border: 1px solid black;
+}
+
+.ul-content2{
+    display: grid;
+    grid-template-columns: repeat(2, 1);
+    gap: 15px;
+    box-shadow: 2px 2px 3px black;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
 }
 
 li {
@@ -140,10 +196,23 @@ li {
     color: green;
     box-shadow: 5px 5px 10px;
     padding: 3px;
-    /* that box isn't popping for some unknown reason */
+}
+
+.ul-content2 img {
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    max-height: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: green;
+    text-decoration: none;
 }
 #feet{
-    border: 2px solid red;
+    border: 2px solid black;
     padding: 2%;
 }
 
